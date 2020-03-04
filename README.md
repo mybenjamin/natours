@@ -1,18 +1,24 @@
-/*
-COLORS:
+# 6. Building The Header - Part 1
 
-Light green: #7ed56f
-Medium green: #55c57a
-Dark green: #28b485
+## A. Write HTML for Header
 
-*/
+```html
+<header class="header">Some Text...</header>
+```
 
+## B. Create universal Reset
+
+```css
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+```
 
+## C. Add font styling to body tag
+
+```css
 body {
     font-family: "Lato", sans-serif;
     font-weight: 400;
@@ -21,7 +27,11 @@ body {
     color: #777;
     padding: 30px;
 }
+```
 
+## D. Add .header class styling
+
+```css
 .header {
     height: 95vh;
     background-image:
@@ -34,3 +44,9 @@ body {
 
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%)
 }
+```
+
+- - -
+- - -
+- - -
+
